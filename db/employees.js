@@ -19,6 +19,7 @@ export function getEmployee(i){
   return employees[i];
 }
 
+// I don't think I need this at all, but was going off the examples we worked on today!
 export function addEmployee(n) {
   employees.push(n);
   return employees;
